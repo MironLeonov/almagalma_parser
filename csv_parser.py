@@ -1,34 +1,28 @@
 import csv
+import os
 
 
 def parse(file_name):
     filepath = file_name + ".csv"
-    arr1 = []
-    arr2 = []
+    arr = []
+    if os.path.exists(file_name):
+        with open(filepath, "r", newline="") as file:
+            try:
+                reader = csv.reader(file)
 
-    with open(filepath, "r", newline="") as file:
-        # читаем файл целиком
-        reader = csv.reader(file)
-        '''
-        Циклом for проходим по строкам 
-        '''
-        for row in reader:
-            cur_arr = row[0].split(';')
-            '''
-            В этом случае вы получите список значений
-            '''
-            arr1.extend(cur_arr)
-            '''
-            Тут получится список из списков. 
-            Каждый добавленный блок является списком
-            '''
-            # arr2.extend([cur_arr])
-        row = ''
-        for letter in arr1:
-            row += letter
-            if letter == '\n':
-                print(row)
+                for row in reader:
+                    cur_arr = row[0].split(';')
+
+                    arr.extend(cur_arr)
+
                 row = ''
+                for letter in arr:
+                    row += letter
+                    if letter == '\n':
+                        print(row)
+                        row = ''
+            except OSError:
+                print("Could not open/read file:", file_name)
 
 
 if __name__ == "__main__":

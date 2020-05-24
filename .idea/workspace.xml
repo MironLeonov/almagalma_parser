@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f0aa684-744f-4652-8c1b-271c09f02d84" name="Default Changelist" comment="" />
+    <list default="true" id="1f0aa684-744f-4652-8c1b-271c09f02d84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_parser.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cLskS9sFxOVNB4FbNbbVpHyHxU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -31,7 +41,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.csv_parser">
+  <component name="RunManager" selected="Python.site_parser">
     <configuration name="csv_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="almagalma_parser" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.csv_parser" />
         <item itemvalue="Python.site_parser" />
+        <item itemvalue="Python.csv_parser" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590319350868</updated>
       <workItem from="1590319353782" duration="2520000" />
-      <workItem from="1590321892037" duration="762000" />
+      <workItem from="1590321892037" duration="2538000" />
     </task>
     <servers />
   </component>
@@ -102,22 +112,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1860" height="282" key="GridCell.Tab.0.bottom" timestamp="1590322631515">
+    <state width="1877" height="108" key="GridCell.Tab.0.bottom" timestamp="1590327477816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590322631515" />
-    <state width="1860" height="282" key="GridCell.Tab.0.center" timestamp="1590322631515">
+    <state width="1877" height="108" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590327477816" />
+    <state width="1877" height="108" key="GridCell.Tab.0.center" timestamp="1590327477816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590322631515" />
-    <state width="1860" height="282" key="GridCell.Tab.0.left" timestamp="1590322631515">
+    <state width="1877" height="108" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590327477816" />
+    <state width="1877" height="108" key="GridCell.Tab.0.left" timestamp="1590327477815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590322631515" />
-    <state width="1860" height="282" key="GridCell.Tab.0.right" timestamp="1590322631515">
+    <state width="1877" height="108" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590327477815" />
+    <state width="1877" height="108" key="GridCell.Tab.0.right" timestamp="1590327477816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590322631515" />
+    <state width="1877" height="108" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590327477816" />
     <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1590322197472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,6 +155,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/almagalma_parser$parser.coverage" NAME="parser Coverage Results" MODIFIED="1590321808151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/almagalma_parser$csv_parser.coverage" NAME="csv_parser Coverage Results" MODIFIED="1590322631504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/almagalma_parser$site_parser.coverage" NAME="site_parser Coverage Results" MODIFIED="1590327477804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/almagalma_parser$csv_parser.coverage" NAME="csv_parser Coverage Results" MODIFIED="1590326956571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
